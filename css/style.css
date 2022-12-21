@@ -28,23 +28,46 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 70px;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 .photographer_section article {
     justify-self: center;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
 .photographer_section article h2 {
     color: #D3573C;
-    font-size: 36px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 5px;
 }
 
 .photographer_section article img {
     height: 200px;
     width: 200px;
+}
+
+.photographer_section article h3 {
+    color: #D3573C;
+    text-align: center;
+    font-size: 14px;
+    margin: 3px;
+}
+
+.photographer_section .tagLine {
+    font-size: 10px;
+    color: black;
+}
+
+.photographer_section .country {
+    font-size: 13px;
+    color: #901C1C;
+}
+
+.photographer_section .price {
+    font-size: 9px;
+    color: #757575;
 }
