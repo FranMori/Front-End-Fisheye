@@ -2,6 +2,11 @@
     display: none;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .photograph-header {
     background-color: #FAFAFA;
     height: 300px;
